@@ -1,3 +1,10 @@
+:root {
+    --main-color: #393939; 
+    --second-color: #FF5A09;
+    --third-color: #ec7f37;
+    --fourth-color: #be4f0c;
+  }
+
 .pageholder{
     display: flex;
     flex-flow: column;
@@ -12,14 +19,14 @@
     border-radius: 50%;
     margin: 10px auto 0px auto;
     width: 25%;
-    border: 3px solid green;
+    border: 3px solid var(--second-color);
     padding: 0px;
 }
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: var(--main-color) ;
     overflow: hidden;
   }
   
@@ -35,12 +42,12 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: var(--third-color) ;
+    
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: var(--second-color); 
     color: white;
   }
