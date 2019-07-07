@@ -8,6 +8,14 @@
     flex-grow : 1;
 }
 
+.headshot{
+    border-radius: 50%;
+    margin: 10px auto 0px auto;
+    width: 25%;
+    border: 3px solid green;
+    padding: 0px;
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
