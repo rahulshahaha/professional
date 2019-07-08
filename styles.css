@@ -39,15 +39,13 @@ a, h1{
 }
 
 h1{
-
     text-align: center;
     float: left;
     background-color: var(--second-color) ;
+    padding: 0px 10px 0px 10px;
     margin: 0px auto 0px auto;
-    width: 13%;
     height: 100%;
     color: #f2f2f2;
-    
 }
 
 .nonActive h1{
@@ -64,9 +62,7 @@ h1{
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: var(--main-color) ;
-    float: left;
     overflow: hidden;
-    width: 87%;
     height: 100%;
   }
   
